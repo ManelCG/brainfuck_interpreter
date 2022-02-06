@@ -1,8 +1,10 @@
 # Brainfuck Interpreter
 
-Brainfuck is an esoteric programming language containing only 8 simple commands, each of them being one single digit:
+Brainfuck is an esoteric programming language containing only 8 simple commands, each of them being one single character:
 
 < > + - \[ \] . ,
+
+As well as a data array with a movable pointer, and instruction pointer.
 
 This is why it's a good choice for amateur interpreter or compiler programmers to try as a challenge, and the reason why I decided to give it a try.
 
